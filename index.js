@@ -15,6 +15,11 @@ app.listen(port, () => {
 app.use(express.static('public'));
 app.use(express.json({limit: '500mb'}));
 
+const browser = async () => await puppeteer.launch({
+    ignoreDefaultArgs: ['--disable-extensions'],
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
+
 const SESSION_FILE_PATH = "./session.json";
 const groupName = "zeka bot prototype";
 let targetGroup;

@@ -1,59 +1,51 @@
-2022/06/25-01:00:24.790 d3a4 Reusing MANIFEST C:\Users\mateu\Desktop\Developer\Zeka_Whatsapp_Bot_Rebirth\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/06/25-01:00:24.790 d3a4 Recovering log #443
-2022/06/25-01:00:24.859 d3a4 Reusing old log C:\Users\mateu\Desktop\Developer\Zeka_Whatsapp_Bot_Rebirth\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000443.log 
-2022/06/25-01:00:28.981 8144 Compacting 1@1 + 1@2 files
-2022/06/25-01:00:29.037 8144 Generated table #453@1: 39341 keys, 2264168 bytes
-2022/06/25-01:00:29.037 8144 Compacted 1@1 + 1@2 files => 2264168 bytes
-2022/06/25-01:00:29.039 8144 compacted to: files[ 0 0 23 0 0 0 0 ]
-2022/06/25-01:00:29.040 8144 Delete type=2 #442
-2022/06/25-01:00:29.040 8144 Delete type=2 #445
-2022/06/25-01:00:51.191 ac14 Level-0 table #455: started
-2022/06/25-01:00:51.209 ac14 Level-0 table #455: 1179578 bytes OK
-2022/06/25-01:00:51.213 ac14 Delete type=0 #443
-2022/06/25-01:00:51.231 ac14 Compacting 1@0 + 0@1 files
-2022/06/25-01:00:51.256 ac14 Generated table #456@0: 20503 keys, 321626 bytes
-2022/06/25-01:00:51.267 ac14 Generated table #457@0: 10269 keys, 315607 bytes
-2022/06/25-01:00:51.267 ac14 Compacted 1@0 + 0@1 files => 637233 bytes
-2022/06/25-01:00:51.269 ac14 compacted to: files[ 0 2 23 0 0 0 0 ]
-2022/06/25-01:00:51.270 ac14 Delete type=2 #455
-2022/06/25-01:00:52.276 aaa4 Compacting 1@1 + 5@2 files
-2022/06/25-01:00:52.328 aaa4 Generated table #458@1: 43041 keys, 2255167 bytes
-2022/06/25-01:00:52.352 aaa4 Generated table #459@1: 8985 keys, 2130662 bytes
-2022/06/25-01:00:52.420 aaa4 Generated table #460@1: 95770 keys, 2246268 bytes
-2022/06/25-01:00:52.491 aaa4 Generated table #461@1: 100628 keys, 2251173 bytes
-2022/06/25-01:00:52.538 aaa4 Generated table #462@1: 65025 keys, 1436559 bytes
-2022/06/25-01:00:52.538 aaa4 Compacted 1@1 + 5@2 files => 10319829 bytes
-2022/06/25-01:00:52.540 aaa4 compacted to: files[ 0 1 23 0 0 0 0 ]
-2022/06/25-01:00:52.540 aaa4 Delete type=2 #447
-2022/06/25-01:00:52.540 aaa4 Delete type=2 #448
-2022/06/25-01:00:52.540 aaa4 Delete type=2 #449
-2022/06/25-01:00:52.540 aaa4 Delete type=2 #450
-2022/06/25-01:00:52.540 aaa4 Delete type=2 #451
-2022/06/25-01:00:52.540 aaa4 Delete type=2 #457
-2022/06/25-01:00:54.468 ac14 Compacting 1@1 + 12@2 files
-2022/06/25-01:00:54.522 ac14 Generated table #463@1: 40932 keys, 2268776 bytes
-2022/06/25-01:00:54.541 ac14 Generated table #464@1: 3070 keys, 2154333 bytes
-2022/06/25-01:00:54.559 ac14 Generated table #465@1: 2918 keys, 2153537 bytes
-2022/06/25-01:00:54.576 ac14 Generated table #466@1: 2945 keys, 2152683 bytes
-2022/06/25-01:00:54.598 ac14 Generated table #467@1: 2870 keys, 2152368 bytes
-2022/06/25-01:00:54.618 ac14 Generated table #468@1: 2815 keys, 2157042 bytes
-2022/06/25-01:00:54.635 ac14 Generated table #469@1: 2985 keys, 2156767 bytes
-2022/06/25-01:00:54.651 ac14 Generated table #470@1: 2967 keys, 2155459 bytes
-2022/06/25-01:00:54.701 ac14 Generated table #471@1: 34482 keys, 2252671 bytes
-2022/06/25-01:00:54.759 ac14 Generated table #472@1: 25635 keys, 2277960 bytes
-2022/06/25-01:00:54.763 ac14 Generated table #473@1: 1137 keys, 105624 bytes
-2022/06/25-01:00:54.763 ac14 Compacted 1@1 + 12@2 files => 21987220 bytes
-2022/06/25-01:00:54.765 ac14 compacted to: files[ 0 0 22 0 0 0 0 ]
-2022/06/25-01:00:54.766 ac14 Delete type=2 #385
-2022/06/25-01:00:54.766 ac14 Delete type=2 #386
-2022/06/25-01:00:54.766 ac14 Delete type=2 #387
-2022/06/25-01:00:54.766 ac14 Delete type=2 #388
-2022/06/25-01:00:54.766 ac14 Delete type=2 #389
-2022/06/25-01:00:54.766 ac14 Delete type=2 #390
-2022/06/25-01:00:54.766 ac14 Delete type=2 #391
-2022/06/25-01:00:54.766 ac14 Delete type=2 #392
-2022/06/25-01:00:54.766 ac14 Delete type=2 #393
-2022/06/25-01:00:54.766 ac14 Delete type=2 #403
-2022/06/25-01:00:54.766 ac14 Delete type=2 #413
-2022/06/25-01:00:54.766 ac14 Delete type=2 #453
-2022/06/25-01:00:54.766 ac14 Delete type=2 #456
+2022/06/25-08:31:22.036 1b18 Reusing MANIFEST C:\Users\mateu\Desktop\Developer\Zeka_Whatsapp_Bot_Rebirth\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/25-08:31:22.037 1b18 Recovering log #454
+2022/06/25-08:31:22.146 1b18 Reusing old log C:\Users\mateu\Desktop\Developer\Zeka_Whatsapp_Bot_Rebirth\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000454.log 
+2022/06/25-08:31:42.624 cc70 Level-0 table #476: started
+2022/06/25-08:31:42.641 cc70 Level-0 table #476: 1174047 bytes OK
+2022/06/25-08:31:42.646 cc70 Delete type=0 #454
+2022/06/25-08:31:42.660 98d4 Compacting 1@0 + 0@1 files
+2022/06/25-08:31:42.684 98d4 Generated table #477@0: 20333 keys, 330827 bytes
+2022/06/25-08:31:42.694 98d4 Generated table #478@0: 9528 keys, 296488 bytes
+2022/06/25-08:31:42.694 98d4 Compacted 1@0 + 0@1 files => 627315 bytes
+2022/06/25-08:31:42.697 98d4 compacted to: files[ 0 2 22 0 0 0 0 ]
+2022/06/25-08:31:42.697 98d4 Delete type=2 #476
+2022/06/25-08:31:43.730 cc70 Compacting 1@1 + 5@2 files
+2022/06/25-08:31:43.784 cc70 Generated table #479@1: 43078 keys, 2254833 bytes
+2022/06/25-08:31:43.809 cc70 Generated table #480@1: 8981 keys, 2131662 bytes
+2022/06/25-08:31:43.877 cc70 Generated table #481@1: 91744 keys, 2241013 bytes
+2022/06/25-08:31:43.948 cc70 Generated table #482@1: 101210 keys, 2253201 bytes
+2022/06/25-08:31:44.008 cc70 Generated table #483@1: 77905 keys, 1722163 bytes
+2022/06/25-08:31:44.008 cc70 Compacted 1@1 + 5@2 files => 10602872 bytes
+2022/06/25-08:31:44.010 cc70 compacted to: files[ 0 1 22 0 0 0 0 ]
+2022/06/25-08:31:44.010 cc70 Delete type=2 #458
+2022/06/25-08:31:44.010 cc70 Delete type=2 #459
+2022/06/25-08:31:44.010 cc70 Delete type=2 #460
+2022/06/25-08:31:44.010 cc70 Delete type=2 #461
+2022/06/25-08:31:44.010 cc70 Delete type=2 #462
+2022/06/25-08:31:44.010 cc70 Delete type=2 #478
+2022/06/25-08:31:46.144 eb98 Compacting 1@1 + 10@2 files
+2022/06/25-08:31:46.201 eb98 Generated table #484@1: 42644 keys, 2271846 bytes
+2022/06/25-08:31:46.226 eb98 Generated table #485@1: 3075 keys, 2154742 bytes
+2022/06/25-08:31:46.250 eb98 Generated table #486@1: 2913 keys, 2151464 bytes
+2022/06/25-08:31:46.272 eb98 Generated table #487@1: 2934 keys, 2151628 bytes
+2022/06/25-08:31:46.296 eb98 Generated table #488@1: 2888 keys, 2150958 bytes
+2022/06/25-08:31:46.318 eb98 Generated table #489@1: 2812 keys, 2157947 bytes
+2022/06/25-08:31:46.340 eb98 Generated table #490@1: 3034 keys, 2157514 bytes
+2022/06/25-08:31:46.358 eb98 Generated table #491@1: 2525 keys, 2152974 bytes
+2022/06/25-08:31:46.410 eb98 Generated table #492@1: 33836 keys, 2249456 bytes
+2022/06/25-08:31:46.466 eb98 Generated table #493@1: 25730 keys, 2277037 bytes
+2022/06/25-08:31:46.471 eb98 Generated table #494@1: 1086 keys, 104354 bytes
+2022/06/25-08:31:46.471 eb98 Compacted 1@1 + 10@2 files => 21979920 bytes
+2022/06/25-08:31:46.473 eb98 compacted to: files[ 0 0 23 0 0 0 0 ]
+2022/06/25-08:31:46.473 eb98 Delete type=2 #463
+2022/06/25-08:31:46.473 eb98 Delete type=2 #464
+2022/06/25-08:31:46.473 eb98 Delete type=2 #465
+2022/06/25-08:31:46.473 eb98 Delete type=2 #466
+2022/06/25-08:31:46.473 eb98 Delete type=2 #467
+2022/06/25-08:31:46.473 eb98 Delete type=2 #468
+2022/06/25-08:31:46.473 eb98 Delete type=2 #469
+2022/06/25-08:31:46.473 eb98 Delete type=2 #470
+2022/06/25-08:31:46.473 eb98 Delete type=2 #471
+2022/06/25-08:31:46.473 eb98 Delete type=2 #472
+2022/06/25-08:31:46.473 eb98 Delete type=2 #477

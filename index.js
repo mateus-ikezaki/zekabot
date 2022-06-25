@@ -30,7 +30,9 @@ if(fs.existsSync(SESSION_FILE_PATH)) {
 }
 
 const client = new Client({
-    authStrategy: new LocalAuth()
+    authStrategy: new LocalAuth(),
+    ignoreDefaultArgs: ['--disable-extensions'],
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
 });
 
 client.on('qr', (qr) => {

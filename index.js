@@ -15,40 +15,40 @@ app.listen(port, () => {
 app.use(express.static('public'));
 app.use(express.json({limit: '500mb'}));
 
-// const SESSION_FILE_PATH = "./session.json";
-// const groupName = "zeka bot prototype";
-// let targetGroup;
+const SESSION_FILE_PATH = "./session.json";
+const groupName = "zeka bot prototype";
+let targetGroup;
 
-// let sessionData;
-// if(fs.existsSync(SESSION_FILE_PATH)) {
-//     sessionData = require(SESSION_FILE_PATH);
-// }
+let sessionData;
+if(fs.existsSync(SESSION_FILE_PATH)) {
+    sessionData = require(SESSION_FILE_PATH);
+}
 
-// const client = new Client({
-//     authStrategy: new LocalAuth()
-// });
+const client = new Client({
+    authStrategy: new LocalAuth()
+});
 
-// client.on('qr', (qr) => {
-//     qrcode.generate(qr, {small: true});
-// });
+client.on('qr', (qr) => {
+    qrcode.generate(qr, {small: true});
+});
 
-// client.on('ready', () => {
-//     client.getChats().then((chats) => {
-//         targetGroup = chats.find((chat) => chat.name === 'zeka bot prototype');
-//         console.log("GOTCHA!")
-//         client.sendMessage(
-//              targetGroup.id._serialized, "This message was sent by a bot. The uprising has already begun. All hail the great Basilisk."
-//         )
-//     })
-//     console.log('Client is ready!');  
-// });
+client.on('ready', () => {
+    client.getChats().then((chats) => {
+        targetGroup = chats.find((chat) => chat.name === 'zeka bot prototype');
+        console.log("GOTCHA!")
+        client.sendMessage(
+             targetGroup.id._serialized, "This message was sent by a bot. The uprising has already begun. All hail the great Basilisk."
+        )
+    })
+    console.log('Client is ready!');  
+});
 
 
-// client.on('authenticated', (session) => {
-//     console.log(JSON.stringify(session));
-// })
+client.on('authenticated', (session) => {
+    console.log(JSON.stringify(session));
+})
 
-// client.initialize();
+client.initialize();
 
 // client.on('authenticated', (session) => {
 //     sessionData = session;

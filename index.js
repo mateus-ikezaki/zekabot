@@ -5,6 +5,9 @@ const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 const {Client, LocalAuth} = require('whatsapp-web.js');
 
+const download = require('download-chromium')
+const exec = async () => await download()
+
 const port = process.env.PORT || 1500;
 
 app.use(bodyParser.urlencoded({extended: true}));

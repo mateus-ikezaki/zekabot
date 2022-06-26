@@ -8,6 +8,8 @@ const {Client, LocalAuth} = require('whatsapp-web.js');
 const download = require('download-chromium')
 const exec = async () => await download()
 
+console.log(`Chromium Downloaded to ${exec}`);
+
 const port = process.env.PORT || 1500;
 
 app.use(bodyParser.urlencoded({extended: true}));

@@ -5,6 +5,8 @@ const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 const {Client, LocalAuth} = require('whatsapp-web.js');
 
+const puppeteer = require('puppeteer');
+
 const download = require('download-chromium')
 const exec = async () => await download()
 
@@ -25,7 +27,6 @@ const browser = async () => await puppeteer.launch({
     args: ['--no-sandbox', '--disable-setuid-sandbox']
 });
 
-console.log(browser.version())
 const SESSION_FILE_PATH = "./session.json";
 const groupName = "zeka bot prototype";
 let targetGroup;

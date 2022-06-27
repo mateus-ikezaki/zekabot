@@ -4,10 +4,8 @@ const bodyParser = require('body-parser');
 const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 const {Client, LocalAuth} = require('whatsapp-web.js');
+const download = require('download-chromium');
 
-const puppeteer = require('puppeteer');
-
-const download = require('download-chromium')
 const exec = async () => await download()
 
 console.log(`Chromium Downloaded to ${exec}`);

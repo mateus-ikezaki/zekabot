@@ -2,13 +2,9 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const qrcode = require('qrcode-terminal');
+const puppeteer = require('puppeteer');
 const fs = require('fs');
 const {Client, LocalAuth} = require('whatsapp-web.js');
-const download = require('download-chromium');
-
-const exec = async () => await download()
-
-console.log(`Chromium Downloaded to ${exec}`);
 
 const port = process.env.PORT || 1500;
 
@@ -20,10 +16,22 @@ app.listen(port, () => {
 app.use(express.static('public'));
 app.use(express.json({limit: '500mb'}));
 
-const browser = async () => await puppeteer.launch({
-    ignoreDefaultArgs: ['--disable-extensions'],
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-});
+// const browser = async () => await puppeteer.launch({
+//     ignoreDefaultArgs: ['--disable-extensions'],
+//     args: ['--no-sandbox', '--disable-setuid-sandbox']
+// });
+
+(async () => {
+
+    console.log("Launching Puppeteer...");
+    
+    const browser = await puppeteer.launch({
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
+
+    console.log("Puppeteer Launched!");
+
+})();
 
 const SESSION_FILE_PATH = "./session.json";
 const groupName = "zeka bot prototype";

@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
+//const bodyParser = require('body-parser');
 const qrcode = require('qrcode-terminal');
 const puppeteer = require('puppeteer');
 const fs = require('fs');
@@ -8,7 +8,7 @@ const {Client, LocalAuth} = require('whatsapp-web.js');
 
 const port = process.env.PORT || 1500;
 
-app.use(bodyParser.urlencoded({extended: true}));
+//app.use(bodyParser.urlencoded({extended: true}));
 app.listen(port, () => {
     console.log(`Server running at ${port}`);
 })

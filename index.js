@@ -65,6 +65,7 @@ client.initialize();
 //     fs.writeFile(SESSION_FILE_PATH, JSON.stringify(session), (err) => {
 //         if (err) {
 //             console.error(err);
+
 //         }
 //     });
 // });

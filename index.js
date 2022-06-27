@@ -18,7 +18,7 @@ app.use(express.json({limit: '500mb'}));
 
 // const browser = async () => await puppeteer.launch({
 //     ignoreDefaultArgs: ['--disable-extensions'],
-//     args: ['--no-sandbox', '--disable-setuid-sandbox']
+//     args: ['--no-sandbox', '--disable-setuid-sandbox'] 
 // });
 
 (async () => {

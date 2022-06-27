@@ -1,12 +1,12 @@
-//const express = require('express');
-//const app = express();
-//const bodyParser = require('body-parser');
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
 const qrcode = require('qrcode-terminal');
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const {Client, LocalAuth} = require('whatsapp-web.js');
 
-/*const port = process.env.PORT || 1500;
+const port = process.env.PORT || 1500;
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.listen(port, () => {
@@ -14,7 +14,7 @@ app.listen(port, () => {
 })
 
 app.use(express.static('public'));
-app.use(express.json({limit: '500mb'}));*/
+app.use(express.json({limit: '500mb'}));
 
 (async () => {
 

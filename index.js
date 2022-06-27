@@ -58,10 +58,6 @@ client.on('ready', () => {
 });
 
 
-client.on('authenticated', (session) => {
-    console.log(JSON.stringify(session));
-})
-
 client.initialize();
 
 // client.on('authenticated', (session) => {
